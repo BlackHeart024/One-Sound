@@ -1,0 +1,3 @@
+SET @num := 0;
+UPDATE music SET music_id = @num :=(@num+1);
+ALTER TABLE music AUTO_INCREMENT =1;
